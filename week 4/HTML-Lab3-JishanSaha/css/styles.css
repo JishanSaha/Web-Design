@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3d8ee;
+    color: #053a37;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #260888;
+    text-align: center;
+    padding: 20px;
+    background-color: #b3d8ee;
+    border-bottom: 2px solid #260888;
+}
+
+code {
+    background-color: #d8f7e8;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+a {
+    color: #120fda;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: #0a6d68;
+    text-decoration: underline;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+li {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #c5bff8;
+    color: #130f72;
+    text-align: center;
+}
+
+#author-sec {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b3d8ee;
+}
+
+#comment-sec {
+    padding-bottom:10px;
+}
+
+#bottom-footer {
+    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+input[type="email"] {
+    height: 30px;
+    width: 200px;
+    border: 1px solid #5517ef;
+    border-radius:10px;
+    padding-left: 10px;
+}
+
+button {
+    height: 30px;
+    background-color: #b3d8ee;
+    color: #190438;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+#main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #dedeeb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

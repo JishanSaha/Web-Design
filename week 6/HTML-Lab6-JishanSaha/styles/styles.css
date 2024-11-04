@@ -1,0 +1,105 @@
+/* General styles */
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+#top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 21px;
+}
+
+#brand-name a,
+.nav-menu li a {
+	margin: 15px 0;
+	display: block;
+}
+
+#brand-name {
+	margin: 0;
+}
+
+#brand-name a {
+	color: #2B0404;
+	text-shadow: #00000040 0px 4px 4px;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+#brand-name a:hover {
+	text-shadow: #00000063 0px 4px 4px;
+	transition: all 0.3s;
+}
+
+.nav-menu {
+	list-style: none;
+}
+
+.nav-menu li {
+	display: inline-block;
+}
+
+.nav-menu li a {
+	color: #000;
+	font-size: 24px;
+	font-weight: 500;
+	margin-left: 25px;
+}
+
+.nav-menu li a.current-page {
+	border-color: #000000;
+}
+
+/* Banner section */
+#promo-image {
+	width: 100%;
+}
+
+.promo-banner {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.text-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-shadow: #00000040 0px 4px 4px;
+}
+
+.text-overlay .promo-text {
+	font-size: 64px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.order-button {
+	background-color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	color: #AD00FF;
+	border: solid 5px #AD00FF;
+	padding: 8px 40px;
+	border-radius: 36px;
+	cursor: pointer;
+}
+
+/* Footer */
+#page-footer {
+	padding: 5px 21px;
+}
+
+#page-footer p {
+	font-size: 14px;
+}
